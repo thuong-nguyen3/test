@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_RegressionTest - Full status - Will change</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>94f30c87-3def-4c73-abeb-3e337a04a55f</testSuiteGuid>
+   <testCaseLink>
+      <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14d98e7b-4ac8-4e28-8ce7-394001d188f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a97344e7-5f9c-4936-92a2-d85e5463f3c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e50e5efd-f4ef-44db-abc4-48941742d8c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC4_Verify Successful Error</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4f90b13-67ff-47f2-80de-25165b86e07b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4596dd2-849d-4c3d-8b6d-7b477658eb8f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20251027-506c-43e7-bf43-f4eb0b5929bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC7_Verify Successful Failed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>41f29533-2c10-4291-9eb5-82ee42d5402d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/testSuiteBinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>41f29533-2c10-4291-9eb5-82ee42d5402d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>fc1bcd0b-6996-4271-af60-44ff8f5a394f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>41f29533-2c10-4291-9eb5-82ee42d5402d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>491ad306-0d3c-4213-9452-cfe431e71c29</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1ff4ed8-82e9-442c-8353-4d148ad442b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC7_Verify Successful Skip</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c5958cd-510a-4460-9e57-37be62533281</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa0352c9-7f7c-4e82-bbf7-7b2a7a586cfb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

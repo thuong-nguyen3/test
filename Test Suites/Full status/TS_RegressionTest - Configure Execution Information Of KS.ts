@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_RegressionTest - Configure Execution Information Of KS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>llnhi0404@gmail.com;</mailRecipient>
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5ac3701c-62a0-444c-8ebf-d96e2aa2af27</testSuiteGuid>
+   <testCaseLink>
+      <guid>e50e5efd-f4ef-44db-abc4-48941742d8c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC5_Verify DataBinding at TestCases</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55147786-b84f-4a1f-9243-0270a1764c9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5cdce364-d807-4dc7-8773-16034141554d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20251027-506c-43e7-bf43-f4eb0b5929bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC6_Verify DataBinding at TestSuite</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>41f29533-2c10-4291-9eb5-82ee42d5402d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/testSuiteBinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>41f29533-2c10-4291-9eb5-82ee42d5402d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>823080ab-f045-495c-8ca4-7e8abc88cb78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>41f29533-2c10-4291-9eb5-82ee42d5402d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>9486406f-e769-4d84-bbfd-a0be7ea97976</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

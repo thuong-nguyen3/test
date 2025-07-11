@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Common test case used to login. 
+Steps:
+- Edit description
+- Click on '''Book Appointment''' button to login
+- Input username and password
+- Click on '''Login''' button
+
+Expected result:
+'''Appointment''' section is displayed after successful login</description>
+   <name>Login Critical - Low (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>895289ad-15e1-4559-a7cd-01a2e4aa243b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4dfe66f4-7a55-4ef1-bbbb-22e3d2bc8f63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05d977b7-9182-4ba9-a1a7-6e1bd99743c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>4dfe66f4-7a55-4ef1-bbbb-22e3d2bc8f63</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>05d977b7-9182-4ba9-a1a7-6e1bd99743c0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <priority>LOW</priority>
+</TestCaseEntity>
